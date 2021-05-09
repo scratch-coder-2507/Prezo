@@ -1,0 +1,125 @@
+.browse {
+    position: relative;
+    background-color: #18181b;
+    width: 100%;
+}
+
+.browse > h1 {
+    font-size: 80px;
+    margin: 40px;
+    margin-bottom: 20px;
+}
+
+.browse__category {
+    height: 60px;
+    font-size: 23px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.browse__category__games {
+    background-color: rgb(10, 155, 119);
+    height: 90px;
+    width: 400px;
+    border-radius: 1vw;
+    padding-left: 15px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 450ms;
+    
+}
+
+.browse__category__games:hover {
+    background-color: rgb(50, 160, 134);
+    transform: scale(1.08);
+}
+
+.browse__category__games > h1:hover {
+    color: #18181b;
+    
+}
+
+.browse__category__games__sports {
+    padding-right: 10px;
+    height: 160px;
+}
+
+.browse__category__esports {
+    background-color: rgb(10, 155, 119);
+    height: 90px;
+    width: 400px;
+    border-radius: 1vw;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 450ms;
+}
+
+.browse__category__esports:hover {
+    background-color: rgb(50, 160, 134);
+    transform: scale(1.08);
+}
+
+.browse__category__esports > h1:hover{
+    color: #18181b;
+}
+
+.browse__category__esports__sports {
+    height: 160px;
+}
+
+.browse__category__music {
+    background-color: rgb(10, 155, 119);
+    height: 90px;
+    width: 400px;
+    border-radius: 1vw;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 450ms;
+}
+
+.browse__category__music:hover {
+    background-color: rgb(50, 160, 134);
+    transform: scale(1.08);
+}
+
+.browse__category__music > h1:hover{
+    color: #18181b;
+}
+
+.browse__category__music__sports {
+    background-color: transparent;
+    padding-right: 15px;
+    height: 150px;
+}
+
+.browse__tabs {
+    display: flex;
+    padding-top: 40px;
+    margin: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.browse__tabs__category {
+    color: rgb(10, 155, 119);
+    border-bottom: 5px solid rgb(92, 201, 174);
+    padding-bottom: 10px;
+    margin-right: 30px;
+    font-weight: 650;
+}
+
+.browse__tabs__live {
+    font-weight: 650;
+}

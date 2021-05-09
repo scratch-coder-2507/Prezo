@@ -1,0 +1,8 @@
+.body {
+  background-color: rgb(238, 48, 48);
+  background-repeat: no-repeat;
+  background-size: 21800px 550px;
+  background-image: url("https://th.bing.com/th/id/OIP.KPoTYEidnDmPJsYU2gStWwHaES?w=296&h=180&c=7&o=5&pid=1.7");
+  flex: 1;
+  height: 100vh;
+}
